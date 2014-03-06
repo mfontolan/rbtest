@@ -5,7 +5,7 @@ require_once 'rb.phar';
 echo '<pre><hr><br>';
 
 R::setup("pgsql:host=127.0.0.1; dbname=teste", 'fx', 'fx');
-//R::freeze();
+R::freeze();
 R::debug();
 
 $projeto = new Projeto();
