@@ -10,6 +10,10 @@ R::debug();
 
 $projeto = new Projeto();
 $projeto->setNome('appGT');
+$projeto->setNome('appGT');
+$projeto->setNome('appGT');
+$projeto->setNome('appGT');
+
 $projeto->setDescricao('appGT Analise');
 $usuario1 = $projeto->addUsuario(new Usuario());
 $usuario1->setLogin('mfontolan');
